@@ -147,8 +147,8 @@ img{
     }
    
     img{
-       max-width: 100px;
-       margin: 10px;
+       width: 40vw;
+       margin: 5px;
     }
     #resultimc{
         background-color: red;
