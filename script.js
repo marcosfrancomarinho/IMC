@@ -52,37 +52,37 @@ function create(n, h, w) {
 function selectionImg(num, i) {
     switch (num) {
         case "Muito Abaixo do Peso":
-            img[0].style.border = "2.8px dotted blue";
+            img[0].style.border = "2.8px dotted red";
             img[0].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
         case "Abaixo do Peso":
-            img[1].style.border = "2.8px dotted blue";
+            img[1].style.border = "2.8px dotted red";
             img[1].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
         case "Peso Normal":
-            img[2].style.border = "2.8px dotted blue";
+            img[2].style.border = "2.8px dotted red";
             img[2].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
         case "Acima do Peso":
-            img[3].style.border = "2.8px dotted blue";
+            img[3].style.border = "2.8px dotted red";
             img[3].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
         case "Obesidade Grau I":
-            img[4].style.border = "2.8px dotted blue";
+            img[4].style.border = "2.8px dotted red";
             img[4].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
         case "Obesidade Grau II (SEVERA)":
-            img[5].style.border = "2.8px dotted blue";
+            img[5].style.border = "2.8px dotted red";
             img[5].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
         case "Obesidade Grau III (MÓRBIDA)":
-            img[6].style.border = "2.8px dotted blue";
+            img[6].style.border = "2.8px dotted red";
             img[6].style.padding = "2px";
             result.innerHTML = paciente[i].imc();
             break;
